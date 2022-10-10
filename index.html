@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horoscope</title>
+    <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-2 d-flex justify-content-center align-items-center">
+    <div class="row row-cols-1 g-3">
+        <div class="col">
+            <div class="card shadow-sm">
+                <h2 class="featurette-heading fw-normal lh-1 text-center pt-2">Гороскоп</h2>
+                <div class="card-body">
+                <p class="lead pt-1 text-center">Все знаки Зодиака</p>
+                <div width="100%" class="d-flex justify-content-center flex-wrap" > 
+                    <button id="btn" class="aries btn-circle me-4 mb-3">Овен</button>
+                    <button id="btn" class="taurus btn-circle me-4 mb-3">Телец</button>
+                    <button id="btn" class="gemini btn-circle me-4 mb-3">Близнецы</button>
+                    <button id="btn" class="cancer btn-circle me-4 mb-3">Рак</button>
+                    <button id="btn" class="leo btn-circle me-4 mb-3">Лев</button>
+                    <button id="btn" class="virgo btn-circle me-4 mb-3">Дева</button>
+                    <button id="btn" class="libra btn-circle me-4 mb-3">Весы</button>
+                    <button id="btn" class="scorpio btn-circle me-4 mb-3">Скорпион</button>
+                    <button id="btn" class="sagittarius btn-circle me-4 mb-3">Стрелец</button>
+                    <button id="btn" class="capricorn btn-circle me-4 mb-3">Козерог</button>
+                    <button id="btn" class="aquarius btn-circle me-4 mb-3">Водолей</button>
+                    <button id="btn" class="pisces btn-circle me-4 mb-3">Рыбы</button>
+                </div>
+                <p id="par" class="lead pt-2 text-center"" ></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+></script>
+<script src="script.js"></script>
+</body>
+</html>
